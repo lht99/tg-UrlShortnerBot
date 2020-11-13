@@ -9,7 +9,7 @@ const start = (msg) => {
 	]);
 	bot.sendMessage(
 		msg.chat.id,
-		`<b>Hi ${msg.chat.first_name}, I Can Short And Bypass Yout Links.</b>\n-/help For More Info\n<code>Bot Developer : </code>@iCodeLife`,
+		`<b>Hi ${msg.chat.first_name}, I Can Short And Bypass Your Links.</b>\n-/help For More Info\n<code>Bot Developer : </code>@iCodeLife`,
 		{ parseMode: 'html' }
 	);
 };
