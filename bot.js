@@ -11,6 +11,7 @@ const anh = require('./commands/anh');
 
 bot.on('text',shortner);
 
+
 bot.on('callbackQuery', callback);
 
 bot.on(/^\/bp (.+)$/, bypasser);
