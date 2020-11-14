@@ -7,7 +7,7 @@ const start = require('./commands/start');
 const shortner = require('./commands/shortner');
 const help = require('./commands/help');
 const callback = require('./commands/callbackhandler');
-const anh = require('.commands/anh');
+const anh = require('./commands/anh');
 
 bot.on('text',shortner);
 
