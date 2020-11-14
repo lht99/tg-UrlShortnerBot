@@ -1,5 +1,5 @@
 const TeleBot = require('telebot');
-const config = require('../config');
+const config = require('./config');
 const bot = new TeleBot(config.botToken);
 
 const bypasser = require('./commands/bypass');
