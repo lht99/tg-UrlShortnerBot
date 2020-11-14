@@ -1,5 +1,5 @@
 const TeleBot = require('telebot');
-const config = require('./config');
+const config = require('../config');
 const bot = new TeleBot(config.botToken);
 const chat_id = user_id("Me")
 const photo_url = "https://telegram.org/img/t_logo.png"
