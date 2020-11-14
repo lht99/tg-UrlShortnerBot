@@ -16,6 +16,6 @@ bot.on(/^\/bp (.+)$/, bypasser);
 
 // General Commands
 bot.on('/start', start);
-bot.on('/help', help);
+bot.on('/bypass', bypasser);
 
 bot.start();
