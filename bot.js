@@ -7,6 +7,7 @@ const start = require('./commands/start');
 const shortner = require('./commands/shortner');
 const help = require('./commands/help');
 const callback = require('./commands/callbackhandler');
+const hinh = require('.commands/anh');
 
 bot.on('text',shortner);
 
@@ -17,5 +18,5 @@ bot.on(/^\/bp (.+)$/, bypasser);
 // General Commands
 bot.on('/start', start);
 bot.on('/bypass', bypasser);
-
+bot.on('/anh', hinh);
 bot.start();
