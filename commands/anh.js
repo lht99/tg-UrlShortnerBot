@@ -4,7 +4,7 @@ const bot = new TeleBot(config.botToken);
 const photo_url = "https://telegram.org/img/t_logo.png"
 
 bot.sendPhoto(
-  msg.chat.id,
+  chatId: msg.message.chat_id,
   photo = photo_url,
   caption = "Telegram Logo"
 );
